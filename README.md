@@ -1,4 +1,4 @@
-# powershell
+# PowerShell
 PowerShell Scripts
 
  - existencias_cyberpuerta.ps1
