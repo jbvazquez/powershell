@@ -1,6 +1,6 @@
 ##########################################################################
 # Created: 2021/01/21 13:20:01
-# Last modified: 2021/01/21 14:54:22
+# Last modified: 2021/01/21 17:36:19
 # File   : existencias_cyberpuertta.ps1
 # Author : Jose Becerra
 # Description : Este script hace una solictiud a la pagina del producto en cyberpuerta
