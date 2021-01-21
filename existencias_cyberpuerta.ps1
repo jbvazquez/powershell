@@ -1,6 +1,6 @@
 ##########################################################################
 # Created: 2021/01/21 13:20:01
-# Last modified: 2021/01/21 17:36:19
+# Last modified: 2021/01/21 17:45:42
 # File   : existencias_cyberpuertta.ps1
 # Author : Jose Becerra
 # Description : Este script hace una solictiud a la pagina del producto en cyberpuerta
@@ -23,7 +23,7 @@ function Check-Stock {
         $products = $ParsedHtml.body.getElementsByClassName("detailsInfo_right_title")
         $productName = $products[0].innerHTML.ToString()
         Add-Type -AssemblyName PresentationFramework
-        $msgBoxInput = [System.Windows.MessageBox]::Show("Nueva  Existencia `n`n$productName `n`nAbrir Enlace `n$url", 'Info', 'YesNoCancel', 'Info')
+        $msgBoxInput = [System.Windows.MessageBox]::Show("Nueva  Existencia `n`n$productName `n`n$url `n`nAbrir Enlace" , 'Info', 'YesNoCancel', 'Info')
         switch ($msgBoxInput) {
 
             'Yes' {

@@ -14,12 +14,11 @@ Si no existe algún objecto con la clase `class="emdetails_notinstocktext1"` des
 ### Info MessageBox
 ![Info MessageBox](https://github.com/jbvazquez/powershell/blob/main/images/messagebox.PNG?raw=true)
 
-
 ### Verificación periódica automática
 
 - **Windows**: 
 Para realizar la verificacion en un intervalo especifico se puede implementando programando una tarea en [Task Scheduler](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks).
 Tutorial: [How to Automate PowerShell Scripts with Task Scheduler](https://blog.netwrix.com/2018/07/03/how-to-automate-powershell-scripts-with-task-scheduler/)
-- **Linux**
+- **Linux**:
 Para realizar la ejecución periódica del script se puede implementar [crontab](https://man7.org/linux/man-pages/man5/crontab.5.html)
  
