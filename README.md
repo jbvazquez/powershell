@@ -4,9 +4,9 @@ PowerShell Scripts
  - existencias_cyberpuerta.ps1
 
 ## existencias_cyberpuerta
-Script de verificacion de existencia, obtiene el contenido de la pagina del producto en www.cyberpuerta.com 
-Si no existe algun objecto con la clase ``` class="emdetails_notinstocktext1" ```despliega una notificación.
-Esta clasee es usada en divs para productos agotados.
+Script de verificación de existencia de un producto, obtiene el contenido de la pagina del producto en www.cyberpuerta.com
+Si no existe algún objecto con la clase ``` class="emdetails_notinstocktext1" ```despliega una notificación
+Esta clase es usada en divs para productos agotados.
  ### Verificación periódica automática
 
  - **Windows**: 
