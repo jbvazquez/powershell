@@ -27,7 +27,7 @@ Si no existe algún objeto con la clase `class="emdetails_notinstocktext1"` desp
 ![Info MessageBox](https://github.com/jbvazquez/powershell/blob/main/images/si_existencia.png?raw=true)
 
 ### Error de conexión MessageBox
-![Info MessageBox](https://github.com/jbvazquez/powershell/blob/main/images/no_internet.png.png?raw=true)
+![Info MessageBox](https://github.com/jbvazquez/powershell/blob/main/images/no_internet.png?raw=true)
 
 ### Verificación periódica automática
 
